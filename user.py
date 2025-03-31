@@ -9,4 +9,4 @@ class User:
         print(f'User("{self.name}", "{self.last_name}", "{self.age}", "{self.email}")')
 
     def __str__(self):
-        print(f'This User is called {self.name} {self.last_name}. He/She is {self.age}.')
+        print(f'This User is called {self.name} {self.last_name}. He/She is {self.age}. You can reach him via email at {self.email}')
